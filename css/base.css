@@ -53,12 +53,19 @@ section{
   height: 500px;
   margin-bottom: 200px;
 }
-.skillset{
+
+.img_profile{
+  background: url("../image/profile.png") center center;
+  background-size: cover;
+}
+
+
+.img_skillset{
   background: url("../image/skillset.png") center center;
   background-size: cover;
 }
 
-.company{
+.img_company{
   background: url("../image/company.png") center center;
   background-size: cover;
 }
