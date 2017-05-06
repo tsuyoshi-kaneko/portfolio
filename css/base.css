@@ -58,15 +58,24 @@ section{
   background: url("../image/profile.png") center center;
   background-size: cover;
 }
-
-
 .img_skillset{
   background: url("../image/skillset.png") center center;
   background-size: cover;
 }
-
 .img_company{
   background: url("../image/company.png") center center;
+  background-size: cover;
+}
+.img_fusion{
+  background: url("../image/fusion.png") center center;
+  background-size: cover;
+}
+.img_team{
+  background: url("../image/team.png") center center;
+  background-size: cover;
+}
+.img_stack{
+  background: url("../image/stack.png") center center;
   background-size: cover;
 }
 
