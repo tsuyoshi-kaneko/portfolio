@@ -21,8 +21,12 @@ h1{
 h2{
   border-bottom: 1px solid #eee;
   color: #737373;
-  padding: 30px 0;
-  margin-bottom: 150px;
+  padding: 10px 0;
+  margin-bottom: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.8);
 }
 h2 span{
   display: block;
@@ -48,7 +52,7 @@ section{
   width: 960px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .container{
@@ -58,6 +62,9 @@ section{
 .image-box{
   height: 500px;
   margin-bottom: 200px;
+}
+.container img{
+  width: 960px;
 }
 
 .img_profile{
@@ -86,6 +93,14 @@ section{
 }
 .img_dummy{
   background: url("../image/dummy.png") center center;
+  background-size: cover;
+}
+.img_talk{
+  background: url("../image/wrok/talk.png") center center;
+  background-size: cover;
+}
+.img_test{
+  background: url("../image/wrok/test.png") center center;
   background-size: cover;
 }
 
