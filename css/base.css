@@ -104,6 +104,11 @@ section{
   background-size: cover;
 }
 
+.img_code{
+  background: url("../image/wrok/code.png") center center;
+  background-size: cover;
+}
+
 
 
 .text-box{
@@ -157,4 +162,12 @@ section{
 }
 .video-wrap video{
   width: 100%;
+}
+
+
+footer{
+  text-align: center;
+  background: #1d1d1d;
+  padding: 30px;
+  color: #fff;
 }
