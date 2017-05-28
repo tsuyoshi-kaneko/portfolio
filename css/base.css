@@ -6,16 +6,19 @@ header{
   min-width: 960px;
   min-height: 500px;
   background: #efefef;
+  margin-bottom: 120px;
+}
+.logo{
+  width: 200px;
+  margin: 30px auto;
 }
 h1{
+  color: rgb(62, 69, 74);
   font-family: serif;
-  font-size: 38px;
+  font-size: 70px;
   text-align: center;
-  padding-top: 20%;
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 0 25px;
   padding-bottom: 15px;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 h2{
@@ -109,8 +112,6 @@ section{
   background-size: cover;
 }
 
-
-
 .text-box{
   text-align: left;
   padding:60px 60px 0;
@@ -124,8 +125,6 @@ section{
 }
 
 
-
-
 .video-wrap {
   position: relative;
   overflow: hidden;
@@ -133,7 +132,6 @@ section{
 .pattern {
   width: 100%;
   height: 100%;
-  background: url("../image/dots.png");
   position: absolute;
   top: 0;
   left: 0;
@@ -147,18 +145,10 @@ section{
   text-align: center;
 }
 .main-text{
-  color: #737373;
-  color: #737373;
+  color: rgb(62, 69, 74);
   font-size: 12px;
   line-height: 3;
-}
-
-.main-title a{
-  display: block;
-  font-size: 14px;
-  margin-bottom: 10px;
-  text-decoration: none;
-  color: #2796d0;
+  margin: 0 0 20px;
 }
 .video-wrap video{
   width: 100%;
