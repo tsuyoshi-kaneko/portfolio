@@ -47,6 +47,14 @@ h2 span{
   font-size: 14px;
 }
 
+.year{
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
 h3{
   font-size: 38px;
   margin-bottom: 20px;
@@ -107,6 +115,23 @@ section{
   background: url("../image/stack.png") center center;
   background-size: cover;
 }
+
+.img_tk{
+  background: url("../image/tk.png") center center;
+  background-size: cover;
+}
+
+.img_gyao{
+  background: url("../image/gyao.png") center center;
+  background-size: cover;
+}
+
+ .img_cyber{
+   background: url("../image/cyber.png") center center;
+   background-size: cover;
+ }
+
+
 .img_dummy{
   background: url("../image/dummy.png") center center;
   background-size: cover;
@@ -142,6 +167,7 @@ section{
 .video-wrap {
   position: relative;
   overflow: hidden;
+  width: 100vw;
   height: 100vh;
 }
 .pattern {
@@ -172,13 +198,14 @@ section{
   margin: 0 0 20px;
 }
 .video-wrap video{
- right: 0;
- bottom: 0;
- min-width: 100%;
- min-height: 100%;
- width: auto;
- height: auto;
- z-index: -100;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
 }
 
 
