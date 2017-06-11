@@ -14,7 +14,6 @@ a:visited{
 header{
   min-width: 960px;
   min-height: 500px;
-  background: #efefef;
   margin-bottom: 200px;
 }
 .logo{
@@ -38,6 +37,7 @@ h2{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  border-bottom: 1px solid #eee;
   background: rgba(255,255,255,0.8);
 }
 h2 span{
@@ -57,9 +57,7 @@ h2 span{
 
 h3{
   font-size: 38px;
-  margin-bottom: 20px;
   color: #50abd6;
-  border-bottom: 3px solid #50abd6;
   padding: 10px;
 }
 h4{
@@ -79,10 +77,37 @@ section{
 
 .contact{
   width: auto;
-  background: #eee;
+  background: #50abd6;
   margin-bottom: 160px;
+  padding: 50px 0 50px;
+  color: #fff;
 }
-
+.contact-last{
+  margin: 0;
+  padding: 50px 0 100px;
+}
+.contact-lead{
+  line-height: 1.7;
+  margin: 20px 0;
+  display: block;
+}
+.contact a{
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  background: url(../image/facebook.png)20px center no-repeat #fff;
+  background-size: 50px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 80px;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #eee;
+  color: #505050;
+  cursor: pointer;
+}
+.contact a:hover{
+  opacity: 0.8;
+}
 .container{
   margin: 60px 0;
 }
@@ -166,7 +191,6 @@ section{
 .text-right{
   padding-left: 65%;
 }
-
 
 .video-wrap {
   position: relative;
