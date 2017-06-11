@@ -1,40 +1,245 @@
 body{
   color: #333;
+  background: #fff;
+  font-family: serif;
 }
+a{
+  color: #50abd6;
+  text-decoration: none;
+}
+a:visited{
+  color: #50abd6;
+}
+
 header{
-  min-width: 950px;
+  min-width: 960px;
   min-height: 500px;
-  background: #efefef;
+  margin-bottom: 200px;
 }
+.logo{
+  width: 200px;
+  margin: 30px auto;
+}
+
 h1{
+  color: rgb(62, 69, 74);
+  font-family: serif;
+  font-size: 70px;
   text-align: center;
-  padding-top: 230px;
+  margin: 0 25px;
+  padding-bottom: 15px;
+}
+
+h2{
+  color: #737373;
+  padding: 10px 0;
+  margin-bottom: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  background: rgba(255,255,255,0.8);
+}
+h2 span{
+  display: block;
+  color: #999;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.year{
+  font-size: 12px;
   margin: 0;
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+h3{
+  font-size: 38px;
+  color: #50abd6;
+  padding: 10px;
+}
+h4{
+  font-size: 24px;
+}
+
+.description{
+  color: #a9a9a9;
 }
 
 section{
-  width: 950px;
+  width: 960px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
+.contact{
+  width: auto;
+  background: #50abd6;
+  margin-bottom: 160px;
+  padding: 50px 0 50px;
+  color: #fff;
+}
+.contact-last{
+  margin: 0;
+  padding: 50px 0 100px;
+}
+.contact-lead{
+  line-height: 1.7;
+  margin: 20px 0;
+  display: block;
+}
+.contact a{
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  background: url(../image/facebook.png)20px center no-repeat #fff;
+  background-size: 50px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 80px;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #eee;
+  color: #505050;
+  cursor: pointer;
+}
+.contact a:hover{
+  opacity: 0.8;
+}
 .container{
   margin: 60px 0;
 }
 
 .image-box{
-  height: 450px;
-  background: url("../image/sample.jpg") center center;
+  height: 500px;
+  margin-bottom: 200px;
 }
+.container img{
+  width: 960px;
+}
+
+.img_profile{
+  background: url("../image/profile.png") center center;
+  background-size: cover;
+}
+.img_skillset{
+  background: url("../image/skillset.png") center center;
+  background-size: cover;
+}
+.img_company{
+  background: url("../image/company.png") center center;
+  background-size: cover;
+}
+.img_fusion{
+  background: url("../image/fusion.png") center center;
+  background-size: cover;
+}
+.img_team{
+  background: url("../image/team.png") center center;
+  background-size: cover;
+}
+.img_stack{
+  background: url("../image/stack.png") center center;
+  background-size: cover;
+}
+
+.img_tk{
+  background: url("../image/tk.png") center center;
+  background-size: cover;
+}
+
+.img_gyao{
+  background: url("../image/gyao.png") center center;
+  background-size: cover;
+}
+
+ .img_cyber{
+   background: url("../image/cyber.png") center center;
+   background-size: cover;
+ }
+
+
+.img_dummy{
+  background: url("../image/dummy.png") center center;
+  background-size: cover;
+}
+.img_talk{
+  background: url("../image/wrok/talk.png") center center;
+  background-size: cover;
+}
+.img_test{
+  background: url("../image/wrok/test.png") center center;
+  background-size: cover;
+}
+
+.img_code{
+  background: url("../image/wrok/code.png") center center;
+  background-size: cover;
+}
+
 .text-box{
-  padding-top: ;
-  padding:110px 60px 0;
+  text-align: left;
+  padding:60px 60px 0;
+}
+.sentence{
+  font-size: 12px;
+  color: #666;
+  line-height: 1.7;
 }
 .text-right{
   padding-left: 65%;
 }
 
-h1{
-  font-size: 18px;
+.video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.pattern {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.main-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -ms-transform: translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  margin: 0 auto;
+  content: 'BOX';
+  z-index: 2;
+  text-align: center;
+}
+.main-text{
+  color: rgb(62, 69, 74);
+  font-size: 12px;
+  line-height: 3;
+  margin: 0 0 20px;
+}
+.video-wrap video{
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+
+footer{
+  text-align: center;
+  background: #1d1d1d;
+  padding: 30px;
+  color: #fff;
 }
